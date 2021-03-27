@@ -1,13 +1,19 @@
 @import "~bootstrap/scss/bootstrap.scss";
 
-/* 
+body,.counter{
+    display: flex;align-items: center;justify-content: center;
+}
+body{height: 100vh;}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
-
-*/
+.counter{
+    background-color: black;
+    color: white;
+    font-size: 4rem;
+    .fa-clock{
+        margin: 1rem 2rem;
+    }
+    .digit{
+        padding: 1rem 2rem;
+        border: 1px solid lightgrey;
+    }
+}
